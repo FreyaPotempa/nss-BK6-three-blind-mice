@@ -1,0 +1,178 @@
+{
+      "computers": [
+        {
+            "id": 1,
+            "model": "Macbook Pro",
+            "year": 2015
+        },
+        {
+            "id": 2,
+            "model": "Galaxy Tablet",
+            "year": 2011
+        },
+        {
+            "id": 3,
+            "model": "Intel Laptop",
+            "year": 2015
+        },
+        {
+            "id": 4,
+            "model": "Old Crusty",
+            "year": 2005
+        },
+        {
+            "id": 5,
+            "model": "Macbook Air",
+            "year": 2012
+        }
+    ],
+    "employees": [
+        {
+            "id": 1,
+            "firstName": "Rainu",
+            "lastName": "Ittycheriah",
+            "computerId": 1,
+            "age": 45,
+            "departmentId": 4,
+            "locationId": 2
+        },
+        {
+            "id": 2,
+            "firstName": "Peter",
+            "lastName": "Patout",
+            "computerId": 2,
+            "age": 90,
+            "departmentId": 1,
+            "locationId": 1
+        },
+        {
+            "id": 3,
+            "firstName": "Joe",
+            "lastName": "Schmo",
+            "computerId": 3,
+            "age": 22,
+            "departmentId": 2,
+            "locationId": 3
+        }
+        ,{
+            "id": 4,
+            "firstName": "Jack",
+            "lastName": "Jasono",
+            "computerId": 4,
+            "age": 54,
+            "departmentId": 4,
+            "locationId": 3
+        },
+        {
+            "id": 5,
+            "firstName": "Betty",
+            "lastName": "Boop",
+            "computerId": 5,
+            "age": 87,
+            "departmentId": 3,
+            "locationId": 2
+        }
+    ],
+    "departments": [
+        {
+            "id": 1,
+            "name": "accounting"
+        },
+        {
+            "id": 2,
+            "name": "finance"
+        },
+        {
+            "id": 3,
+            "name": "IT"
+        },
+        {
+            "id": 4,
+            "name": "sales"
+        }
+    ],
+    "locations": [
+        {
+            "id": 1,
+            "site": "Downtown" 
+        },
+        {
+            "id": 2,
+            "site": "Uptown" 
+        },
+        {
+            "id": 3,
+            "site": "Midtown"
+        }
+    ],
+    "customers": [
+        {
+            "id": 1,
+            "name": "Kaya Lakin"
+        },
+        {
+            "id": 2,
+            "name": "Ronaldo Hickle" 
+        },
+        {
+            "id": 3,
+            "name": "Onie Farrell" 
+        },
+        {
+            "id": 4,
+            "name": "Kristofer Dibbert" 
+        }
+    ],
+    "employeeCustomers": [
+        {
+            "id": 1,
+            "customerId": 4,
+            "employeeId": 1
+        },
+        {
+            "id": 2,
+            "customerId": 1,
+            "employeeId": 1
+        },
+        {
+            "id": 3,
+            "customerId": 4,
+            "employeeId": 2
+        },
+        {
+            "id": 4,
+            "customerId": 3,
+            "employeeId": 2
+        },
+        {
+            "id": 5,
+            "customerId": 1,
+            "employeeId": 3
+        },
+        {
+            "id": 6,
+            "customerId": 2,
+            "employeeId": 3
+        },
+        {
+            "id": 7,
+            "customerId": 3,
+            "employeeId": 4
+        },
+        {
+            "id": 8,
+            "customerId": 1,
+            "employeeId": 4
+        },
+        {
+            "id": 9,
+            "customerId": 3,
+            "employeeId": 5
+        },
+        {
+            "id": 10,
+            "customerId": 4,
+            "employeeId": 5
+        }
+    ]
+}
